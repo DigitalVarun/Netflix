@@ -1,0 +1,44 @@
+.header{
+    background-color: rgb(24, 24, 24);
+    padding: 0.7rem;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+
+    >a >img{
+        width: 100px;
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 16px;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .navItems{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-left: 46px;
+        width: 100%;
+
+        >a{
+            font-size: 14px;
+            color: #ffffff;
+            margin-inline: 24px;
+            text-decoration: none;
+            font-weight: 400;
+        }
+    }
+    >svg{
+        color: #ffffff;
+        font-size: 2.2rem;
+        cursor: pointer;
+        margin-right: 16px;
+
+        :hover{
+            color: #b1b1b1;
+        }
+    }
+}

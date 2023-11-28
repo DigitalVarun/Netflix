@@ -1,0 +1,96 @@
+section{
+    .banner{
+        height: 60vh;
+        width: 100%;
+        box-shadow: 0px -19px 24px 0px rgba(0, 0, 0, 0.25) inset;
+
+     >.contentBox{
+            position: absolute;
+            top: 112px;
+            display: flex;
+            width: 642px;
+            justify-content: center;
+            flex-direction: column;
+            align-items: flex-start;
+
+        >.content{
+            display: flex;
+            padding: 20px;
+            width: 600px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+
+            >h1{
+                font-weight: 500;
+                padding-bottom: 10px;
+                font-size: 40px;
+            }
+
+            >h3{
+                font-weight: 200;
+                font-size: 15px;
+            }
+            
+        }
+
+        .btns{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: full;
+            
+            .listBtn{
+                    background-color: rgb(124, 124, 124);
+                    color: aliceblue;
+            }
+
+            button{
+                width: 80px;
+                margin-left: 20px;
+                color: black;
+                font-weight: 500;
+                font-size: 12px;
+                height: 30px;
+                border-radius: 5px;
+                border: none;
+
+                
+            }
+        }
+        }
+
+        >img{
+            width: 100%;
+            height: 60vh;
+            z-index: -100;
+            box-shadow: 0px -122px 60px 0px rgba(0, 0, 0, 0.25) inset;
+        }
+    }
+    .row{
+        padding: 0.6rem;
+        padding-top: 0.9rem;
+        background-color: black;
+
+        >h2{
+            margin-inline: 0.4rem;
+            padding-block: 2px;
+            font-weight: 500;
+            font-size: 16px;
+        }
+        >div{
+            display: flex;
+            overflow-x: auto;
+        }
+    }
+    .card{
+        width: 112px;
+        cursor: pointer;
+        transition: transform 0.5s;
+        margin: 0.4rem;
+
+        &:hover{
+            transform: translateY(-10px) scale(1.05);
+        }
+    }
+}
